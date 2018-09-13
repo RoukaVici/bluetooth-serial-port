@@ -15,9 +15,9 @@ private:
 	std::string message;
 
 public:
-	BluetoothException(std::string message) NOEXCEPT
+	BluetoothException(std::string msg) NOEXCEPT
 	{
-		this->message = message;
+		this->message = msg;
 	}
 
 	virtual const char* what() const NOEXCEPT
