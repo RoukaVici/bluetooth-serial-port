@@ -7,6 +7,7 @@ add_library(bluetoothserialport)
 target_sources(bluetoothserialport
 PRIVATE
 	${CMAKE_CURRENT_SOURCE_DIR}/src/Enums.cc
+	${CMAKE_CURRENT_SOURCE_DIR}/src/BluetoothException.cc
 )
 
 if(WIN32) # windows
